@@ -1,0 +1,56 @@
+.login-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    
+    
+     
+    
+.sh{
+  background-color: #382222;
+  width: 500px;
+  height: 50vh;
+  margin-top: 50px;
+}  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #000000;
+    }
+  
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+      color: #11102f;
+      text-align: center;
+    }
+  
+    .ant-input {
+      width: 100%;
+      max-width: 300px; 
+      font-size: 1rem;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      &:focus {
+        border-color: #1890ff; 
+        box-shadow: 0 0 5px rgba(24, 144, 255, 0.2);
+        
+      }
+    }
+  
+    .ant-btn {
+      width: 100%;
+      max-width: 300px; 
+      font-size: 1.1rem;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: rgb(14, 14, 169);
+      color: rgb(255, 255, 255);
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: darkblue;
+      }
+    }
+  }
